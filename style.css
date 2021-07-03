@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {     
+    body{
+    background-color: rgb(255, 168, 251);
+    font-family: 'Manjari', sans-serif;
+}
+}
+
+.titulo{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3em;
+    color: #ffe8d5;
+}
+
+.conteiner1{
+    background-color: rgb(170, 0, 162);
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr,1fr;
+    padding: 1rem;
+}
+
+.conteiner1 > div{
+    background-color: rgb(255, 204, 252);
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(250, 255, 176);
+}
+
+.imagenLogo{
+    width: 150px;
+    height: 150px;
+    margin-left: 4px;
+    margin-top: 4px;
+    justify-self: center;
+}
+
+.subtitulo{
+    grid-column: span 3;
+    align-self: flex-start;
+}
+
+h2{
+    color: hsl(300, 97%, 27%);
+    font-size: 30px;
+    text-align: center;
+}
+
+.buscaRedes{
+    align-self: flex-start;
+}
+
+.buscador{
+    border-style: dotted;
+    border-color: rgb(136, 8, 136);
+}
+
+.redes{
+    border-style: dotted;
+    border-color:rgb(136, 8, 136);
+    margin-top: 30px;
+}
+
+.logoInstagram{
+    color: lavenderblush;
+    width: 30px;
+    height: 30px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.logoFacebook{
+    color: lavenderblush;
+    width: 20px;
+    height: 20px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+.logoPinterest{
+    color: lavenderblush;
+    width: 30px;
+    height: 30px;
+    padding: 1rem;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+    margin: 5px;
+    margin-left: 9rem;
+}
+
+.barra{
+    grid-column: 1/6;
+}
+
+.conteiner2{
+    background-color: rgb(170, 0, 162);
+    width: 100%;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: 40px, 100px;
+    padding: 1rem;
+}
+
+.conteiner2 > div{
+    background-color: rgb(255, 204, 252);
+    padding: 20px;
+    border-style: groove;
+    border-color: rgb(250, 255, 176);
+}
+
+.imagen{
+    grid-column: 1/9;
+    justify-self: stretch;
+}
+
+.dibujo1{
+    height: 200px;
+    width: 40%;
+    object-fit: cover;
+    margin-left: 130px;
+}
+
+.dibujo2{
+    height: 200px;
+    width: 40%;
+    object-fit: cover;
+    display: inline;
+}
+
+.loMasVisto {
+    grid-column: 1/2;
+    align-self: flex-start;
+}
+
+h4{
+    color: hsl(300, 97%, 27%);
+    text-align: start;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.gridAnidado{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+}
+
+.gridAnidado > div:hover{
+    border-color: #440644;
+    border-style: solid;
+    background-color: rgb(207, 74, 201);
+}
+
+.principal{
+    grid-column: span 6;
+}
+
+h5{
+    font-size: 30px;
+    color: #a90dc9;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.suscripcion{
+    grid-column: span 1;
+}
+
+fieldset{
+    margin-left: 4px;
+}
+
+.contenedorFlex{
+    width: 75rem;
+    height: 300px;
+    padding: 10px;
+    background-color: violet;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.contenedorFlex > div{
+    background-color: #ffe8d5;
+    margin: 5px;
+    width: 350px;
+    height: 160px;
+}
+
+video{
+    border-color: violet;
+    border-style: ridge;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    width: 250px;
+}
+
+.consulta{
+   height: 80px;
+}
+
+.cuadroConsulta{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.imagenLogo2{
+    width: 100px;
+    height: 100px;
+    margin-left: 230px;
+    margin-top: 4px;
+}
+
+/*CSS "Sobre SF"*/
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
